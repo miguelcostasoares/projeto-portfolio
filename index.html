@@ -12,11 +12,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#video" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -43,10 +43,10 @@
                 </div>
             </article> <!-- Fim article#video -->
 
-            <article id="skills">
+            <article id="skills"> <!-- Container Skills -->
                 <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
 
-                <div id="skill-container">
+                <div id="skill-container"> <!-- Skill 01 -->
                     <div class="item">
                         <div class="info">
                             <span class="nome">
@@ -61,7 +61,7 @@
                         </div>
                     </div> 
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 02 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-code"></i> CSS3
@@ -75,7 +75,7 @@
                         </div>
                     </div> 
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 03 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-code"></i> JavaScript
@@ -89,7 +89,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 04 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-code"></i> PHP
@@ -103,7 +103,7 @@
                         </div>
                     </div> 
                     
-                    <div class="item">
+                    <div class="item"> <!-- Skill 05 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-person-rays"></i> Comunicação
@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 06 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-person-rays"></i> Trabalho em equipe
@@ -131,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 07 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-person-rays"></i> Adaptabilidade
@@ -145,7 +145,7 @@
                         </div>
                     </div>
 
-                    <div class="item">
+                    <div class="item"> <!-- Skill 08 -->
                         <div class="info">
                             <span class="nome">
                                 <i class="fa-solid fa-person-rays"></i> Liderança
@@ -161,41 +161,41 @@
                 </div>
             </article> <!-- Fim article#skills -->
 
-            <article id="formacao">
+            <article id="formacao"> <!-- Container Formações -->
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
 
-                <div id="formacao-container">
+                <div id="formacao-container"> <!-- Formação 01 -->
                     <div class="curso">
                         <p class="periodo">1991 - 1994</p>
                         <h3 class="instituicao">Escola Técnica Carioca</h3>
                         <p class="titulacao">Técnico em Informática</p>
                     </div>
 
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 02 -->
                         <p class="periodo">1995 - 2000</p>
                         <h3 class="instituicao">Instituto Superior de Tecnologia</h3>
                         <p class="titulacao">Bacharelado em Ciência da computação</p>
                     </div>
 
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 03 -->
                         <p class="periodo">1998 - 2000</p>
                         <h3 class="instituicao">Centro de Graduação de Professores</h3>
                         <p class="titulacao">Licenciatura em Informática</p>
                     </div>
 
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 04 -->
                         <p class="periodo">2001 - 2003</p>
                         <h3 class="instituicao">Laboratório de Docência Superior</h3>
                         <p class="titulacao">Docência Para Ensino Superior Profissional</p>
                     </div>
 
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 05 -->
                         <p class="periodo">2009 - 2010</p>
                         <h3 class="instituicao">Fundação para Ensino à Distância</h3>
                         <p class="titulacao">Especialização para produção em ambientes EAD</p>
                     </div>
 
-                    <div class="curso">
+                    <div class="curso"> <!-- Formação 06 -->
                         <p class="periodo">2021 - 2024</p>
                         <h3 class="instituicao">Centro de Inteligência Artificial</h3>
                         <p class="titulacao">Técnicas para aplicação de IAs</p>
@@ -206,13 +206,93 @@
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
+
+                <div id="projeto-container">
+                    <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projeto1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto de Vídeos</h3>
+                            <p>Projeto construído para treinar a inserção de vídeos em nosso site.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perferendis numquam vitae suscipit voluptatibus, architecto recusandae laborum ducimus porro, praesentium dolorem velit assumenda quae sint accusantium tempora possimus! Ea, eum?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 02 -->
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2023</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>Projeto construído para treinar efeito paralax em imagens.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perferendis numquam vitae suscipit voluptatibus, architecto recusandae laborum ducimus porro, praesentium dolorem velit assumenda quae sint accusantium tempora possimus! Ea, eum?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 03 -->
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto construído para treinar conteúdos e imagens dinâmicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perferendis numquam vitae suscipit voluptatibus, architecto recusandae laborum ducimus porro, praesentium dolorem velit assumenda quae sint accusantium tempora possimus! Ea, eum?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 04 -->
+                        <img src="imagens/projeto-04-links.jpg" alt="Projeto1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto Links</h3>
+                            <p>Projeto construído para treinar conteúdos e imagens dinâmicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perferendis numquam vitae suscipit voluptatibus, architecto recusandae laborum ducimus porro, praesentium dolorem velit assumenda quae sint accusantium tempora possimus! Ea, eum?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 05 -->
+                        <img src="imagens/projeto-05-login.jpg" alt="Projeto1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto Login</h3>
+                            <p>Projeto construído para treinar conteúdos e imagens dinâmicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perferendis numquam vitae suscipit voluptatibus, architecto recusandae laborum ducimus porro, praesentium dolorem velit assumenda quae sint accusantium tempora possimus! Ea, eum?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 06 -->
+                        <img src="imagens/projeto-06-album.jpg" alt="Projeto1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto Álbum</h3>
+                            <p>Projeto construído para treinar conteúdos e imagens dinâmicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, perferendis numquam vitae suscipit voluptatibus, architecto recusandae laborum ducimus porro, praesentium dolorem velit assumenda quae sint accusantium tempora possimus! Ea, eum?</p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
             </article> <!-- Fim article#projetos -->
 
         </section>
     </main>
 
     <footer>
-
+        Portfólio desenvolvido por <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em Vídeo</a> em 2025
     </footer>
 
     <script src="scripts/script.js"></script>
